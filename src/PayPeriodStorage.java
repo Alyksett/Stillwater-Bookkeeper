@@ -85,7 +85,7 @@ public class PayPeriodStorage {
 		return text;
 	}
 
-	// getters and setters for totals
+	// getters and thesetters for totals
 
 	public void updateOldestSale(String date) {
 		oldestSale = date;
