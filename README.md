@@ -5,3 +5,5 @@ This is a program that helps optimize the book keeping workflow of the Stillwate
 Two unformatted examples of data that it manipulates are in the repository (XSLS files). 
 
 Tools used were Apache POI, Gson, Jackson imported using Maven. 
+
+Requires Java
