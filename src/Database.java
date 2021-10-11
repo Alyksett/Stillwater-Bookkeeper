@@ -150,7 +150,7 @@ public class Database {
         return database.get(date).getPeriod().get(name).getCheckNumber();
 	}
     /*
-    *Getters!
+    *Getters
     */ 
     public void addSale(String date, String name, Artist sale) {
         database.get(date).getPeriod().get(name).addSale(sale);
@@ -183,7 +183,7 @@ public class Database {
      * This is all for a single sale. Artist.java
      */
     /*
-    *Getters!
+    *Getters
     */
     public String getArtistName(String date, String name, int i) {
 		return database.get(date).getPeriod().get(name).getSingleSale(i).getArtistName();
